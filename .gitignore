@@ -1,0 +1,22 @@
+# Environment variables (NEVER upload these)
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# OS / Editor files
+.DS_Store
+.vscode/
+# Secrets and customer data
+.env
+data/
